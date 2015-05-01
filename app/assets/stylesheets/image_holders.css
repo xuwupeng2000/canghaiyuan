@@ -1,0 +1,9 @@
+#me {
+  height: 280px;
+
+  width: 280px;
+  margin-top: 8%;
+
+  background: url("me.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border-radius: 150px;
+}

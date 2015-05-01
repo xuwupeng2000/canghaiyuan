@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<%= favicon_link_tag 'dna.png' %>
+
+<head>
+  <title>Jack Wu</title>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
+  <%= csrf_meta_tags %>
+</head>
+
+<body class="abstract">
+
+  <div class='js-side-menu'>
+    <div class='navbar navbar-default navbar-fixed-top'>
+      <div class='top-nav-menu-button'>
+        Menu
+        <i class="fa fa-bars"></i>
+      </div>
+    </div>
+
+    <div class='side-nav'>
+      <ul class='side-menu'>
+
+        <li> <%= link_to "Resume",  root_path %> </li>
+
+        <li> <a href="mailto:xuwupeng2000@gmail.com" target="_top">Email Me</a> </li>
+
+        <li>
+          <a href="http://www.linkedin.com/pub/peng-wu/49/5b5/7ab" target="_blank"> Linkedin Profile </a>
+          <i class="fa fa-linkedin-square"></i>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+
+  <%= yield %>
+
+</body>
+
+<!-- FOOTER -->
+<footer> </footer>
+<!-- FOOTER -->
+
+</html>
