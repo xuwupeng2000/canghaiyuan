@@ -22,3 +22,5 @@ gem 'turbolinks'
 
 gem 'backbone-on-rails'
 gem "font-awesome-rails"
+
+gem 'bootstrap-sass'
