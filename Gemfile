@@ -22,3 +22,5 @@ gem 'backbone-on-rails'
 gem "font-awesome-rails"
 
 gem 'bootstrap-sass'
+
+gem 'therubyracer',  platforms: :ruby
