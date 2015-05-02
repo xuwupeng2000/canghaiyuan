@@ -12,8 +12,6 @@
  *
  *= require_tree .
  *= require font-awesome
- *= require /bower_components/flat-ui/dist/css/vendor/bootstrap
- *= require /bower_components/flat-ui/dist/css/flat-ui
  *= require pages
  *= require_self
  */
