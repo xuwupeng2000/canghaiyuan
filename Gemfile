@@ -15,8 +15,6 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem 'jquery-turbolinks'
-gem 'turbolinks'
 
 gem 'backbone-on-rails'
 gem "font-awesome-rails"

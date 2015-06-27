@@ -12,11 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require jquery.turbolinks
 //= require underscore
 //= require backbone
 //= require_tree ./vendor
 //= require ./ui/ui
 //= require_tree ./ui
-//= require turbolinks
 //= require_tree .
